@@ -1,0 +1,27 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 class="logo">🏀⛹️‍♂️🏀</h1>
+        <div class="container" id="screen">
+            <div class="score-card1">
+                <h3 class="team">HOME</h3>
+                <div class="score" id="home-score">0</div>
+                <button class="btn" id="btn-1-home" onclick="homeAdd1()">+ 1</button>
+                <button class="btn" id="btn-2-home" onclick="homeAdd2()">+2</button>
+                <button class="btn" id="btn-3-home" onclick="homeAdd3()">+3</button>
+            </div>
+            
+                <div class="score-card2">
+                <h3 class="team">Guest</h3>
+                <div class="score" id="guest-score">0</div>
+                <button class="btn" id="btn-1-guest" onclick="guestAdd1()">+ 1</button>
+                <button class="btn" id="btn-2-guest" onclick="guestAdd2()">+2</button>
+                <button class="btn" id="btn-3-guest" onclick="guestAdd3()">+3</button>
+            </div>
+        </div>
+        <button id="gameOver" onclick="endGame()">Game Over</button>
+        <script src="index.js"></script>
+    </body>
+</html>

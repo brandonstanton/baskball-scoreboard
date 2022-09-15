@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background:#222;
+}
+
+.logo{
+    width: 300px;
+    margin: 25px auto 20px;
+     text-align: center; 
+    font-size: 3em;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid #fff;
+}
+
+.team{
+    color: #fff;
+    font-size : 30px;
+    margin: 40px auto 10px;
+    text-transform: uppercase;
+}
+
+.score{
+    width: 155px;
+    height: 120px;
+    background: #222;
+    color: #e63946;
+    margin:5px auto 25px;
+    text-align: center;
+    line-height: 3;
+    font-size: 40px;
+    border-radius: 8px;
+}
+
+.btn{
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 0 5px;
+    padding: 9.5px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+#gameOver{
+    width:300px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background: #e63946;
+    color: #1B244A;
+    font-size: 1.7em;
+    font-weight: bold;
+    border: 2px dotted #1B244A;
+    border-radius: 4px;
+}
+
+#gameOver:hover{
+    background: linear-gradient(#d90429,#e63946,#621708,#1B244A);
+    cursor: pointer;
+    text-shadow: -1px -1px #d3d3d3;
+    font-size: 2em;
+    border: 2px dotted #fff;
+}
